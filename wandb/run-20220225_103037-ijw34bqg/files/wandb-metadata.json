@@ -1,0 +1,19 @@
+{
+    "os": "Windows-10-10.0.19042-SP0",
+    "python": "3.9.7",
+    "heartbeatAt": "2022-02-25T05:00:49.138373",
+    "startedAt": "2022-02-25T05:00:37.324066",
+    "docker": null,
+    "cpu_count": 4,
+    "cuda": null,
+    "args": [
+        "--epochs",
+        "1"
+    ],
+    "state": "running",
+    "program": "C:\\Users\\91992\\DLCVNLP\\CV_Projects\\Pytorch-UNet\\train.py",
+    "codePath": "train.py",
+    "host": "LAPTOP-PBC06SME",
+    "username": "91992",
+    "executable": "C:\\Users\\91992\\anaconda3\\python.exe"
+}

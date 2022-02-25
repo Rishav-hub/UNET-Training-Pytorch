@@ -1,0 +1,4 @@
+name: unet
+channels:
+  - defaults
+prefix: C:\Users\91992\anaconda3\envs\unet

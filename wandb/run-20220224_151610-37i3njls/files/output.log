@@ -1,0 +1,32 @@
+INFO: Starting training:
+        Epochs:          5
+        Batch size:      1
+        Learning rate:   1e-05
+        Training size:   4580
+        Validation size: 508
+        Checkpoints:     True
+        Device:          cpu
+        Images scaling:  0.5
+        Mixed Precision: True
+C:\Users\91992\anaconda3\lib\site-packages\torch\cuda\amp\grad_scaler.py:115: UserWarning: torch.cuda.amp.GradScaler is enabled, but CUDA is not available.  Disabling.
+  warnings.warn("torch.cuda.amp.GradScaler is enabled, but CUDA is not available.  Disabling.")
+Epoch 1/5:   0%|          | 0/4580 [00:00<?, ?img/s]C:\Users\91992\anaconda3\lib\site-packages\torch\cuda\amp\autocast_mode.py:114: UserWarning: torch.cuda.amp.autocast only affects CUDA ops, but CUDA is not available.  Disabling.
+  warnings.warn("torch.cuda.amp.autocast only affects CUDA ops, but CUDA is not available.  Disabling.")
+Epoch 1/5:   0%|          | 0/4580 [03:59<?, ?img/s]
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "C:\Users\91992\anaconda3\lib\multiprocessing\queues.py", line 247, in _feed
+    send_bytes(obj)
+  File "C:\Users\91992\anaconda3\lib\multiprocessing\queues.py", line 247, in _feed
+    send_bytes(obj)
+  File "C:\Users\91992\anaconda3\lib\multiprocessing\connection.py", line 205, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "C:\Users\91992\anaconda3\lib\multiprocessing\connection.py", line 205, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "C:\Users\91992\anaconda3\lib\multiprocessing\connection.py", line 285, in _send_bytes
+    ov, err = _winapi.WriteFile(self._handle, buf, overlapped=True)
+  File "C:\Users\91992\anaconda3\lib\multiprocessing\connection.py", line 285, in _send_bytes
+    ov, err = _winapi.WriteFile(self._handle, buf, overlapped=True)
+BrokenPipeError: [WinError 232] The pipe is being closed
+BrokenPipeError: [WinError 232] The pipe is being closed
+INFO: Saved interrupt
